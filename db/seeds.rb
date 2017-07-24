@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+categories = Category.create([{name: "Computers"}, {name:'Televisions'}, {name: 'Smart Phones'}, {name: 'Stereos'}, {name: 'Other'}])
+# rails db:seed; comment out above if add more so it doesn't run again
