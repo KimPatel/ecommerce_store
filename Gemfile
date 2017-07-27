@@ -11,6 +11,11 @@ gem 'devise'
 gem 'carrierwave'
 gem 'cancancan'
 gem 'hirb'
+
+gem 'stripe'
+gem 'figaro'
+gem 'certified'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.4'
 # Use sqlite3 as the database for Active Record
